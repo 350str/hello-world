@@ -1,0 +1,17 @@
+.comment {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .comment {
+        width: 100%; 
+        align-items: center; 
+        margin-bottom: 48px; 
+    }
+
+    .comment:last-of-type {
+        margin-bottom: 0px;
+    }
+}

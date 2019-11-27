@@ -1,0 +1,18 @@
+@import url("./__container/comments__container.css");
+@import url("./__container/comment/comment.css");
+@import url("./__container/comment/__author/comment__author.css");
+@import url("./__container/comment/__blockquote/comment__blockquote.css");
+@import url("./__container/comment/__image/comment__image.css");
+@import url("./__container/comment/__quote/comment__quote.css");
+
+.comments {
+    width: 90%;
+    max-width: 1184px;
+    margin: 0px auto;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .comments {
+        width: 86%;
+    }
+}

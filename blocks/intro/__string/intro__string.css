@@ -1,0 +1,14 @@
+.intro__string {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+    .intro__string {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

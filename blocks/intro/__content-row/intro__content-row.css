@@ -1,0 +1,5 @@
+.intro__content-row {
+    margin: 35px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
