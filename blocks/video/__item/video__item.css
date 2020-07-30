@@ -3,6 +3,7 @@
     height: auto;
     position: relative;
     max-width: 583px;
+    cursor: pointer;
 }
 
 .video__item:hover .video__item-bg {
